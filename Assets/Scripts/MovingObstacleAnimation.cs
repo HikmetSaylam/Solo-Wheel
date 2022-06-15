@@ -1,38 +1,35 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class MovingObstacleAnimation : MonoBehaviour
 {
-    private Vector3 _startTransform;
-    private Vector3 _endTransform;
     [SerializeField] [Range(0, 1)] private float lerpValue;
+    [SerializeField] [Range(0, 0.1f)] private float speedOfAnimation;
     [SerializeField] private float startPosX;
     [SerializeField] private float endPosX;
-    private bool _isBack;
+    private bool _isComingBack;
 
-    private void Awake()
+    private void Start()
     {
-        _startTransform = transform.position;
-        _endTransform = transform.position;
-        _endTransform.x += (endPosX - startPosX);
-        _isBack = false;
+        _isComingBack = false;
     }
 
     private void FixedUpdate()
     {
-        if (!_isBack)
+        if (!_isComingBack)
         {
-            transform.position = Vector3.Lerp(_startTransform, _endTransform, lerpValue+=0.01f);
+            var pos = transform.position;
+            pos.x = (float) Mathf.Lerp(startPosX, endPosX, lerpValue+=speedOfAnimation);
+            transform.position = pos;
             if (lerpValue >= 1)
-                _isBack = true;
+                _isComingBack = true;
         }
         else
         {
-            transform.position = Vector3.Lerp(_startTransform, _endTransform, lerpValue-=0.01f);
+            var pos = transform.position;
+            pos.x = (float) Mathf.Lerp(startPosX, endPosX, lerpValue-=speedOfAnimation);
+            transform.position = pos;
             if (lerpValue <= 0)
-                _isBack = false;
+                _isComingBack = false;
         }
     }
 }
