@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 3518971993482192562}
   - component: {fileID: 3518971993482192573}
   - component: {fileID: 3518971993482192572}
+  - component: {fileID: 4001085454762474276}
   m_Layer: 0
   m_Name: Wheel
   m_TagString: Character
@@ -127,6 +128,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   effect: {fileID: 0}
+  _camera: {fileID: 0}
+  player: {fileID: 0}
 --- !u!114 &3518971993482192572
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -140,10 +143,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5.5
-  jumpForce: 60
-  gravity: 1.61
   accelerate: 0
   automaticAccelerate: 0
+  jumpForce: 60
+  gravity: 1.61
   leftWall: -3.33
   rightWall: 3.33
   groundPosY: 0.5
+  maxPosY: 0
+--- !u!114 &4001085454762474276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2034110826650587850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66f1898c31b659a498e2b88a5622bbad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

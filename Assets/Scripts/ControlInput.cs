@@ -2,20 +2,47 @@ using UnityEngine;
 
 public class ControlInput : MonoSingleton<ControlInput>
 {
-
+    [SerializeField] private Joystick joystick;
+    private static bool _jumpOnClicked;
+    private static bool _speedOnClicked;
+    
     public float GetHorizontal()
     {
-        return Input.GetAxis("Horizontal");
+        return joystick.Horizontal;
     }
 
     public bool GetJump()
     {
-        return Input.GetKey(KeyCode.Space);
+        if (!_jumpOnClicked) return _jumpOnClicked;
+        _jumpOnClicked = false;
+        return true;
+
     }
 
     public bool GetAccelerate()
     {
-        return Input.GetKey(KeyCode.LeftShift);
+        return _speedOnClicked;
     }
+
+    public void SetJumpDown()
+    {
+        _jumpOnClicked = true;
+    }
+    
+    public void SetJumpUp()
+    {
+        _jumpOnClicked = false;
+    }
+    
+    public void SetSpeedDown()
+    {
+        _speedOnClicked = true;
+    }
+    
+    public void SetSpeedUp()
+    {
+        _speedOnClicked = false;
+    }
+    
     
 }

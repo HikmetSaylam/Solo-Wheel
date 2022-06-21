@@ -8,17 +8,12 @@ public class MovingObstacleAnimation : MonoBehaviour
     [SerializeField] private float endPosX;
     private bool _isComingBack;
 
-    private void Start()
-    {
-        _isComingBack = false;
-    }
-
     private void FixedUpdate()
     {
         if (!_isComingBack)
         {
             var pos = transform.position;
-            pos.x = (float) Mathf.Lerp(startPosX, endPosX, lerpValue+=speedOfAnimation);
+            pos.x = Mathf.Lerp(startPosX, endPosX, lerpValue+=speedOfAnimation);
             transform.position = pos;
             if (lerpValue >= 1)
                 _isComingBack = true;
@@ -26,7 +21,7 @@ public class MovingObstacleAnimation : MonoBehaviour
         else
         {
             var pos = transform.position;
-            pos.x = (float) Mathf.Lerp(startPosX, endPosX, lerpValue-=speedOfAnimation);
+            pos.x = Mathf.Lerp(startPosX, endPosX, lerpValue-=speedOfAnimation);
             transform.position = pos;
             if (lerpValue <= 0)
                 _isComingBack = false;

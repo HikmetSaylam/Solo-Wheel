@@ -1,54 +1,39 @@
 using UnityEngine;
 using Vector3 = UnityEngine.Vector3;
 
-public class CharacterMovement : MonoBehaviour
+public class CharacterMovement : MonoSingleton<CharacterMovement>
 {
-    [SerializeField] [Range(1,10)] private float speed;
-    [SerializeField] [Range(1,100)] private int jumpForce;
-    [SerializeField] [Range(0,3)] private float gravity;
+    
     [SerializeField] [Range(0,10)] private float accelerate;
+    [SerializeField] [Range(10,20)] private float maxSpeed;
+    [SerializeField] [Range(5,20)] private float startSpeed;
     [SerializeField] [Range(0,1)] private float automaticAccelerate;
     [SerializeField] private float leftWall;
     [SerializeField] private float rightWall;
     [SerializeField] private float groundPosY;
+    [SerializeField] private float maxPosY;
+    private float _speed;
 
     private void FixedUpdate()
     {
-        speed += Time.deltaTime*automaticAccelerate;
-        var x = ControlInput.Instance.GetHorizontal();
+        _speed += Time.deltaTime*automaticAccelerate;
+        _speed = Mathf.Clamp(_speed, startSpeed, maxSpeed);
+        var x = ControlInput.Instance.GetHorizontal()*1.5f;
         x *= GetSpeed();
-        var y = GetJump()-GetGravity();
-        GetComponent<Rigidbody>().velocity = new Vector3(x, y, GetSpeed());
+        GetComponent<Rigidbody>().velocity = new Vector3(x, 0, GetSpeed());
         var pos = transform.position;
         pos.x =  Mathf.Clamp(pos.x, leftWall, rightWall);
-        pos.y = Mathf.Clamp(pos.y, groundPosY, 30f);
+        pos.y = Mathf.Clamp(pos.y, groundPosY, maxPosY);
         transform.position = pos;
     }
-
-    private float GetJump()
-    {
-        if (transform.position.y <= groundPosY&&ControlInput.Instance.GetJump())
-        {
-            return jumpForce;
-        }
-        return 0;
-    }
-
-    private float GetGravity()
-    {
-        if (transform.position.y <= groundPosY)
-        {
-            return 0;
-        }
-        return gravity;
-    }
-
-    private float GetSpeed()
+    
+    
+    public float GetSpeed()
     {
         if (ControlInput.Instance.GetAccelerate())
         {
-            return accelerate + speed;
+            return accelerate + _speed;
         }
-        return speed;
+        return _speed;
     }
 }

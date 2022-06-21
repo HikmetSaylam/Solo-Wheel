@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 
 public class RoadKeeper : MonoBehaviour
@@ -9,7 +8,7 @@ public class RoadKeeper : MonoBehaviour
     private void OnTriggerExit(Collider other)
     {
         _pos = road.transform.position;
-        _pos.z += 38.51533f;
+        _pos.z += 80f;
         if (!other.gameObject.tag.Equals("Character")) return;
         var obj = GameManager.Instance.GetRoad();
         obj.transform.position = _pos;
