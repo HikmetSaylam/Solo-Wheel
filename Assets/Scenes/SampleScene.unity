@@ -697,7 +697,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 945826710}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: -1}
-  m_LocalPosition: {x: 0, y: -0.65, z: 0.12}
+  m_LocalPosition: {x: -0.26, y: 0.34, z: 0.61}
   m_LocalScale: {x: 0.16666667, y: 0.33333337, z: 0.33333337}
   m_Children: []
   m_Father: {fileID: 1590390172}
@@ -5643,15 +5643,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d4e0e1ef8607aa4db79a331dd6742dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pools:
-  - objectPrefab: {fileID: 12669099}
-    poolSize: 2
-  - objectPrefab: {fileID: 12669099}
-    poolSize: 2
-  - objectPrefab: {fileID: 12669099}
-    poolSize: 2
-  - objectPrefab: {fileID: 12669099}
-    poolSize: 2
+  levelLength: 0
+  roadLevels:
+  - pools:
+    - objectPrefab: {fileID: 0}
+      poolSize: 0
+    - objectPrefab: {fileID: 0}
+      poolSize: 0
+    - objectPrefab: {fileID: 0}
+      poolSize: 0
+    - objectPrefab: {fileID: 0}
+      poolSize: 0
+    - objectPrefab: {fileID: 0}
+      poolSize: 0
+  - pools: []
+  - pools: []
+  - pools: []
+  - pools: []
 --- !u!1001 &1225912437
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5933,7 +5941,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1590390170}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.03, y: 2.03, z: -27.6}
+  m_LocalPosition: {x: 3.8, y: 2.79, z: -41.15}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 945826711}
@@ -6290,6 +6298,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3518971993482192560, guid: 5ef5380002bd3a844ba6d24339128db1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 32a65ce3d288c8f48b3c4dc6cbf9111e, type: 2}
     - target: {fileID: 3518971993482192562, guid: 5ef5380002bd3a844ba6d24339128db1, type: 3}
       propertyPath: m_Enabled
       value: 1

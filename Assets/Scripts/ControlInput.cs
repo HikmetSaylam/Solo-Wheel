@@ -29,11 +29,6 @@ public class ControlInput : MonoSingleton<ControlInput>
         _jumpOnClicked = true;
     }
     
-    public void SetJumpUp()
-    {
-        _jumpOnClicked = false;
-    }
-    
     public void SetSpeedDown()
     {
         _speedOnClicked = true;
