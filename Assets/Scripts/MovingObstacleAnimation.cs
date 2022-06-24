@@ -12,6 +12,7 @@ public class MovingObstacleAnimation : MonoBehaviour
     {
         if (!_isComingBack)
         {
+            transform.Rotate(0, 0, -4, Space.World);
             var pos = transform.position;
             pos.x = Mathf.Lerp(startPosX, endPosX, lerpValue+=speedOfAnimation);
             transform.position = pos;
@@ -20,6 +21,7 @@ public class MovingObstacleAnimation : MonoBehaviour
         }
         else
         {
+            transform.Rotate(0, 0, 4, Space.World);
             var pos = transform.position;
             pos.x = Mathf.Lerp(startPosX, endPosX, lerpValue-=speedOfAnimation);
             transform.position = pos;
