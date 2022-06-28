@@ -1,10 +1,19 @@
+using System.Collections;
 using UnityEngine;
 
 public class CoinCollector : MonoBehaviour
 {
+    [SerializeField] private GameObject meshRenderer;
     private void OnTriggerEnter(Collider other)
     {
-        if(!other.tag.Equals("Character")) return;
-        Destroy(this.gameObject);
+        if(!other.tag.Equals("Collider")) return;
+        StartCoroutine(ActivateCoroutine());
+    }
+
+    private IEnumerator ActivateCoroutine()
+    {
+        meshRenderer.SetActive(false);
+        yield return new WaitForSeconds(1);
+        meshRenderer.SetActive(true);
     }
 }

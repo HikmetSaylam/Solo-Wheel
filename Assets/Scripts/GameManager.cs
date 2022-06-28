@@ -5,7 +5,7 @@ public class GameManager : MonoSingleton<GameManager>
 {
     [SerializeField] private GameObject firstRoadPiece;
     private Queue<GameObject> _pieceOfRoad;
-
+    
     private void Start()
     {
         _pieceOfRoad = new Queue<GameObject>();

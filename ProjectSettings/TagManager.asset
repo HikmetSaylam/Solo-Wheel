@@ -7,6 +7,9 @@ TagManager:
   - Trigger
   - Character
   - Joystick
+  - Coin
+  - Door
+  - Collider
   layers:
   - Default
   - TransparentFX

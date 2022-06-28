@@ -1,6 +1,6 @@
 using UnityEngine;
-public class SpeedEffect : MonoBehaviour
- 
+public class SpeedEffect : MonoSingleton<SpeedEffect>
+
 {
     [SerializeField] private GameObject effect;
 

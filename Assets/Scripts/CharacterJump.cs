@@ -1,13 +1,18 @@
 using UnityEngine;
 
-public class CharacterJump : MonoBehaviour
+public class CharacterJump : MonoSingleton<CharacterJump>
 {
     [SerializeField] [Range(0,1)] private float jumpForce;
     [SerializeField] [Range(0,1)] private float gravityForce;
-    [SerializeField] private float groundPosY;
+    private float _groundPosY;
     private float _verticalForce;
     private float _gravity;
-    
+
+    private void Start()
+    {
+        _groundPosY = CharacterMovement.Instance.GetGroundPosY();
+    }
+
 
     private void FixedUpdate()
     {
@@ -16,7 +21,7 @@ public class CharacterJump : MonoBehaviour
 
     private float GetJump()
     {
-        if (transform.position.y <= groundPosY&&!ControlInput.Instance.GetJump())
+        if (transform.position.y <= _groundPosY&&!ControlInput.Instance.GetJump())
         {
             _gravity = 0;
             _verticalForce = 0;
@@ -26,5 +31,6 @@ public class CharacterJump : MonoBehaviour
         _verticalForce = jumpForce - _gravity;
         return _verticalForce;
     }
+    
     
 }

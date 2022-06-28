@@ -1,11 +1,12 @@
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class ObjectPool : MonoSingleton<ObjectPool>
 {
     [SerializeField] private int levelLength;
     private int _levelCounter;
-
+    
     [System.Serializable]
     public struct Pool
     {
@@ -15,26 +16,30 @@ public class ObjectPool : MonoSingleton<ObjectPool>
     }
     
     [System.Serializable]
-    public struct RoadLevels
+    public struct Stages
     {
         public Pool[] pools;
+        public int startRoad;
+        public int roadType;
     }
 
-    [SerializeField] private RoadLevels[] roadLevels;
+    [SerializeField] private Stages[] stages;
 
     private void Awake()
     {
         _levelCounter = 0;
-        for (var q = 0; q < roadLevels.Length; q++)
+        for (var q = 0; q < stages.Length; q++)
         {
-            for (var i = 0; i < roadLevels[q].pools.Length; i++)
+            stages[q].startRoad = Random.Range(0, stages[q].pools.Length);
+            stages[q].roadType = stages[q].startRoad;
+            for (var i = 0; i < stages[q].pools.Length; i++)
             {
-                roadLevels[q].pools[i].PooledObjects = new Queue<GameObject>();
-                for (var j = 0; j < roadLevels[q].pools[i].poolSize; j++)
+                stages[q].pools[i].PooledObjects = new Queue<GameObject>();
+                for (var j = 0; j < stages[q].pools[i].poolSize; j++)
                 {
-                    var obj = Instantiate(roadLevels[q].pools[i].objectPrefab);
+                    var obj = Instantiate(stages[q].pools[i].objectPrefab);
                     obj.SetActive(false);
-                    roadLevels[q].pools[i].PooledObjects.Enqueue(obj);
+                    stages[q].pools[i].PooledObjects.Enqueue(obj);
                 }
             }
 
@@ -45,9 +50,13 @@ public class ObjectPool : MonoSingleton<ObjectPool>
     public GameObject GetGameObject()
     {
         var level = GetLevelCounter();
-        var objectType = Random.Range(0, roadLevels[level].pools.Length);
-        var obj = roadLevels[level].pools[objectType].PooledObjects.Dequeue();
-        roadLevels[level].pools[objectType].PooledObjects.Enqueue(obj);
+        var objectType = ++stages[level].roadType % stages[level].pools.Length;
+        if (objectType == stages[level].startRoad)
+        {
+            objectType=GetStartRoad(level);
+        }
+        var obj = stages[level].pools[objectType].PooledObjects.Dequeue();
+        stages[level].pools[objectType].PooledObjects.Enqueue(obj);
         return obj;
         
     }
@@ -55,9 +64,34 @@ public class ObjectPool : MonoSingleton<ObjectPool>
     private int GetLevelCounter()
     {
         var level = _levelCounter++ / levelLength;
-        if (level >= roadLevels.Length)
-            return roadLevels.Length - 1;
+        if (level >= stages.Length)
+            return stages.Length - 1;
+        if (level==1&&_levelCounter==levelLength+2)
+        {
+            RemoveStage();
+            _levelCounter = 0;
+            level = 0;
+        }
         return level;
     }
-    
+
+    private int GetStartRoad(int levelType)
+    {
+        stages[levelType].startRoad=Random.Range(0,stages[levelType].pools.Length);
+        stages[levelType].roadType = stages[levelType].startRoad;
+        return ++stages[levelType].roadType % stages[levelType].pools.Length;
+    }
+
+    private void RemoveStage()
+    {
+        for (var i = 0; i < stages.First().pools.Length; i++)
+        {
+            for (var j = 0; j < stages.First().pools[i].poolSize; j++)
+            {
+                Destroy(stages.First().pools[i].PooledObjects.Dequeue());
+            }
+        }
+        stages = stages.Where(val => !val.Equals(stages.First())).ToArray();
+    }
+
 }

@@ -11,6 +11,6 @@ public class WheelAnimation : MonoBehaviour
         _localRotation=Quaternion.Euler(_sliderLastX,0f,0f);
         rotation *= _localRotation;
         transform.rotation = rotation;
-        _sliderLastX -= -(CharacterMovement.Instance.GetSpeed() % 5 + 4);
+        _sliderLastX -= -(CharacterMovement.Instance.GetSpeed() % 5 + 9);
     }
 }
