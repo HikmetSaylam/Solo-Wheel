@@ -29,4 +29,5 @@ public class GameManager : MonoSingleton<GameManager>
         }
         _pieceOfRoad.Enqueue(obj);
     }
+    
 }

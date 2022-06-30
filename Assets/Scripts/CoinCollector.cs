@@ -13,7 +13,7 @@ public class CoinCollector : MonoBehaviour
     private IEnumerator ActivateCoroutine()
     {
         meshRenderer.SetActive(false);
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(0.25f);
         meshRenderer.SetActive(true);
     }
 }

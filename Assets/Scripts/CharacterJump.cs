@@ -14,6 +14,7 @@ public class CharacterJump : MonoSingleton<CharacterJump>
     }
 
 
+
     private void FixedUpdate()
     {
         transform.position += new Vector3(0, GetJump(), 0);

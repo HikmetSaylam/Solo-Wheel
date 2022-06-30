@@ -982,6 +982,25 @@ MonoBehaviour:
       poolSize: 2
     startRoad: 0
     roadType: 0
+  - pools:
+    - objectPrefab: {fileID: 7562074558438846976, guid: 541135c33d4c60142a12c13777824a61, type: 3}
+      poolSize: 2
+    - objectPrefab: {fileID: 5323427122952529600, guid: 20dbc535f8617af438d51b4b3c47d477, type: 3}
+      poolSize: 2
+    - objectPrefab: {fileID: 6553020191098043836, guid: dded5fda562e752459a17cafaff393ee, type: 3}
+      poolSize: 2
+    - objectPrefab: {fileID: 5558393985492391675, guid: 099a7673bce72e8429ac9d29168fe520, type: 3}
+      poolSize: 2
+    - objectPrefab: {fileID: 3580780675341408355, guid: 773c5c08f9754d1469c9a4e6d61ffe4c, type: 3}
+      poolSize: 2
+    - objectPrefab: {fileID: 8387829959581605340, guid: 8c3a2191f7e6c6843814a7a5c93b95cf, type: 3}
+      poolSize: 2
+    - objectPrefab: {fileID: 1992852812412898264, guid: d9f5297b4b48b714398bf0e39a7eaa5f, type: 3}
+      poolSize: 2
+    - objectPrefab: {fileID: 1434039900673555752, guid: 4062f9d563cb82c4e9a748be2ab07985, type: 3}
+      poolSize: 2
+    startRoad: 0
+    roadType: 0
 --- !u!114 &908935136
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6483,7 +6502,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bee89a416dd164c42b5e1a509d64c4d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpForce: 0.25
+  jumpForce: 0.27
   gravityForce: 0.013
 --- !u!65 &1781542487
 BoxCollider:
@@ -6643,7 +6662,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3518971993482192572, guid: 5ef5380002bd3a844ba6d24339128db1, type: 3}
       propertyPath: maxSpeed
-      value: 11
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 3518971993482192572, guid: 5ef5380002bd3a844ba6d24339128db1, type: 3}
       propertyPath: jumpForce
@@ -6663,7 +6682,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3518971993482192572, guid: 5ef5380002bd3a844ba6d24339128db1, type: 3}
       propertyPath: startSpeed
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3518971993482192572, guid: 5ef5380002bd3a844ba6d24339128db1, type: 3}
       propertyPath: automaticAccelerate

@@ -6,7 +6,7 @@ public class CollisionEvents : MonoSingleton<CollisionEvents>
 {
     [SerializeField] private GameObject colliderObject;
     [SerializeField] private float colliderCloseTime;
-    private int _health = 10;
+    private int _health = 15;
     private void OnCollisionEnter(Collision other)
     {
         if (other.collider.CompareTag("Coin")) return;

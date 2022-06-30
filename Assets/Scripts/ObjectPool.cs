@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using System.Linq;
 using UnityEngine;
 
 public class ObjectPool : MonoSingleton<ObjectPool>
@@ -12,7 +11,7 @@ public class ObjectPool : MonoSingleton<ObjectPool>
     {
         public GameObject objectPrefab;
         public int poolSize;
-        public Queue<GameObject> PooledObjects;
+        public Queue<GameObject> pooledObjects;
     }
     
     [System.Serializable]
@@ -34,12 +33,12 @@ public class ObjectPool : MonoSingleton<ObjectPool>
             stages[q].roadType = stages[q].startRoad;
             for (var i = 0; i < stages[q].pools.Length; i++)
             {
-                stages[q].pools[i].PooledObjects = new Queue<GameObject>();
+                stages[q].pools[i].pooledObjects = new Queue<GameObject>();
                 for (var j = 0; j < stages[q].pools[i].poolSize; j++)
                 {
                     var obj = Instantiate(stages[q].pools[i].objectPrefab);
                     obj.SetActive(false);
-                    stages[q].pools[i].PooledObjects.Enqueue(obj);
+                    stages[q].pools[i].pooledObjects.Enqueue(obj);
                 }
             }
 
@@ -55,8 +54,8 @@ public class ObjectPool : MonoSingleton<ObjectPool>
         {
             objectType=GetStartRoad(level);
         }
-        var obj = stages[level].pools[objectType].PooledObjects.Dequeue();
-        stages[level].pools[objectType].PooledObjects.Enqueue(obj);
+        var obj = stages[level].pools[objectType].pooledObjects.Dequeue();
+        stages[level].pools[objectType].pooledObjects.Enqueue(obj);
         return obj;
         
     }
@@ -66,12 +65,6 @@ public class ObjectPool : MonoSingleton<ObjectPool>
         var level = _levelCounter++ / levelLength;
         if (level >= stages.Length)
             return stages.Length - 1;
-        if (level==1&&_levelCounter==levelLength+2)
-        {
-            RemoveStage();
-            _levelCounter = 0;
-            level = 0;
-        }
         return level;
     }
 
@@ -82,7 +75,7 @@ public class ObjectPool : MonoSingleton<ObjectPool>
         return ++stages[levelType].roadType % stages[levelType].pools.Length;
     }
 
-    private void RemoveStage()
+   /* private void RemoveStage()
     {
         for (var i = 0; i < stages.First().pools.Length; i++)
         {
@@ -92,6 +85,6 @@ public class ObjectPool : MonoSingleton<ObjectPool>
             }
         }
         stages = stages.Where(val => !val.Equals(stages.First())).ToArray();
-    }
+    }*/
 
 }
