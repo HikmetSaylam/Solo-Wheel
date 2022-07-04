@@ -28,6 +28,7 @@ public class CharacterJump : MonoSingleton<CharacterJump>
             _verticalForce = 0;
             return 0;
         }
+        HealthBar.Instance.ApplyJumpDamage();
         _gravity += gravityForce;
         _verticalForce = jumpForce - _gravity;
         return _verticalForce;

@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoSingleton<GameManager>
 {
@@ -29,5 +30,18 @@ public class GameManager : MonoSingleton<GameManager>
         }
         _pieceOfRoad.Enqueue(obj);
     }
-    
+
+    private void FixedUpdate()
+    {
+        HealthBar.Instance.ApplyAutomaticDamage();
+        if (HealthBar.Instance.GetHealth() <= 0)
+        {
+            SceneManager.LoadScene("SampleScene");
+        }
+
+        if (ControlInput.Instance.GetAccelerate())
+        {
+            HealthBar.Instance.ApplyHealthGain();
+        }
+    }
 }

@@ -5,6 +5,7 @@ public class ControlInput : MonoSingleton<ControlInput>
     [SerializeField] private Joystick joystick;
     private static bool _jumpOnClicked;
     private static bool _speedOnClicked;
+    private static bool _canItJump = true;
     
     public float GetHorizontal()
     {
@@ -26,7 +27,13 @@ public class ControlInput : MonoSingleton<ControlInput>
 
     public void SetJumpDown()
     {
+        if (!_canItJump) return;
+        _canItJump = false;
         _jumpOnClicked = true;
+    }
+    public void SetJumpUp()
+    {
+        _canItJump = true;
     }
     
     public void SetSpeedDown()
@@ -38,6 +45,4 @@ public class ControlInput : MonoSingleton<ControlInput>
     {
         _speedOnClicked = false;
     }
-    
-    
 }

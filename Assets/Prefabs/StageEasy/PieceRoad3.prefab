@@ -17,7 +17,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &9073315296980273824
 Transform:
@@ -172,6 +172,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RoadBlockWide (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 7564364437935063288, guid: de1278f606a71e64db6ab5ac0d62c002, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 7679700684391477137, guid: de1278f606a71e64db6ab5ac0d62c002, type: 3}
       propertyPath: m_RootOrder
       value: 31
@@ -238,6 +242,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RoadBlockWide (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 7564364437935063288, guid: de1278f606a71e64db6ab5ac0d62c002, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 7679700684391477137, guid: de1278f606a71e64db6ab5ac0d62c002, type: 3}
       propertyPath: m_RootOrder
       value: 25
@@ -300,9 +308,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5881792740605460988}
     m_Modifications:
+    - target: {fileID: 1611557285694359922, guid: e518a08fa4d2e1946b528eedf70c323e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1618821449463216472, guid: e518a08fa4d2e1946b528eedf70c323e, type: 3}
       propertyPath: m_Name
       value: New Prefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 1618821449463216472, guid: e518a08fa4d2e1946b528eedf70c323e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 9129890973601186189, guid: e518a08fa4d2e1946b528eedf70c323e, type: 3}
       propertyPath: m_RootOrder
@@ -426,6 +442,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: New Prefab 1 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 658245879748478332, guid: 093218e783b90e5438640ea2c7e5163b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 4514589368418165503, guid: 093218e783b90e5438640ea2c7e5163b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 093218e783b90e5438640ea2c7e5163b, type: 3}
 --- !u!4 &35275280258182423 stripped
@@ -444,6 +468,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RoadBlockWide (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7564364437935063288, guid: de1278f606a71e64db6ab5ac0d62c002, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 7679700684391477137, guid: de1278f606a71e64db6ab5ac0d62c002, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -454,11 +482,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7679700684391477137, guid: de1278f606a71e64db6ab5ac0d62c002, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.3057698
+      value: 1.3557699
       objectReference: {fileID: 0}
     - target: {fileID: 7679700684391477137, guid: de1278f606a71e64db6ab5ac0d62c002, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.7532234
+      value: 6.1832237
       objectReference: {fileID: 0}
     - target: {fileID: 7679700684391477137, guid: de1278f606a71e64db6ab5ac0d62c002, type: 3}
       propertyPath: m_LocalPosition.z
@@ -509,6 +537,10 @@ PrefabInstance:
     - target: {fileID: 7564364437935063288, guid: de1278f606a71e64db6ab5ac0d62c002, type: 3}
       propertyPath: m_Name
       value: RoadBlockWide
+      objectReference: {fileID: 0}
+    - target: {fileID: 7564364437935063288, guid: de1278f606a71e64db6ab5ac0d62c002, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 7679700684391477137, guid: de1278f606a71e64db6ab5ac0d62c002, type: 3}
       propertyPath: m_RootOrder
@@ -764,6 +796,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pole_light_free (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 524b0a3ce31d8264ea017eae2d6e4441, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 524b0a3ce31d8264ea017eae2d6e4441, type: 3}
 --- !u!1 &1497836550334964603 stripped
@@ -929,6 +965,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RoadBlockWide (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 7564364437935063288, guid: de1278f606a71e64db6ab5ac0d62c002, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 7679700684391477137, guid: de1278f606a71e64db6ab5ac0d62c002, type: 3}
       propertyPath: m_RootOrder
       value: 26
@@ -939,11 +979,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7679700684391477137, guid: de1278f606a71e64db6ab5ac0d62c002, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.1735353
+      value: 6.2235355
       objectReference: {fileID: 0}
     - target: {fileID: 7679700684391477137, guid: de1278f606a71e64db6ab5ac0d62c002, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.610921
+      value: 5.040921
       objectReference: {fileID: 0}
     - target: {fileID: 7679700684391477137, guid: de1278f606a71e64db6ab5ac0d62c002, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1039,6 +1079,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RoadBlock (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2821329270988867348, guid: ebd406210b3fa1c4e82a12936d831995, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ebd406210b3fa1c4e82a12936d831995, type: 3}
 --- !u!4 &377295432197840312 stripped
@@ -1057,6 +1101,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RoadBlockWide (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 7564364437935063288, guid: de1278f606a71e64db6ab5ac0d62c002, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 7679700684391477137, guid: de1278f606a71e64db6ab5ac0d62c002, type: 3}
       propertyPath: m_RootOrder
       value: 28
@@ -1071,7 +1119,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7679700684391477137, guid: de1278f606a71e64db6ab5ac0d62c002, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.7532234
+      value: 6.0032234
       objectReference: {fileID: 0}
     - target: {fileID: 7679700684391477137, guid: de1278f606a71e64db6ab5ac0d62c002, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1122,6 +1170,10 @@ PrefabInstance:
     - target: {fileID: 7564364437935063288, guid: de1278f606a71e64db6ab5ac0d62c002, type: 3}
       propertyPath: m_Name
       value: RoadBlockWide (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7564364437935063288, guid: de1278f606a71e64db6ab5ac0d62c002, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 7679700684391477137, guid: de1278f606a71e64db6ab5ac0d62c002, type: 3}
       propertyPath: m_RootOrder
@@ -1245,6 +1297,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: New Prefab 1
       objectReference: {fileID: 0}
+    - target: {fileID: 658245879748478332, guid: 093218e783b90e5438640ea2c7e5163b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 4514589368418165503, guid: 093218e783b90e5438640ea2c7e5163b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 093218e783b90e5438640ea2c7e5163b, type: 3}
 --- !u!4 &3988364884412399882 stripped
@@ -1319,6 +1379,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: New Prefab 1 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 658245879748478332, guid: 093218e783b90e5438640ea2c7e5163b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 4514589368418165503, guid: 093218e783b90e5438640ea2c7e5163b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 093218e783b90e5438640ea2c7e5163b, type: 3}
 --- !u!4 &3853619258244658853 stripped
@@ -1336,6 +1404,10 @@ PrefabInstance:
     - target: {fileID: 7564364437935063288, guid: de1278f606a71e64db6ab5ac0d62c002, type: 3}
       propertyPath: m_Name
       value: RoadBlockWide (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7564364437935063288, guid: de1278f606a71e64db6ab5ac0d62c002, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 7679700684391477137, guid: de1278f606a71e64db6ab5ac0d62c002, type: 3}
       propertyPath: m_RootOrder
@@ -1451,6 +1523,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pole_light_free (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 524b0a3ce31d8264ea017eae2d6e4441, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 524b0a3ce31d8264ea017eae2d6e4441, type: 3}
 --- !u!4 &5459473620102663430 stripped
@@ -1488,6 +1564,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RoadBlockWide (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 7564364437935063288, guid: de1278f606a71e64db6ab5ac0d62c002, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 7679700684391477137, guid: de1278f606a71e64db6ab5ac0d62c002, type: 3}
       propertyPath: m_RootOrder
       value: 32
@@ -1498,11 +1578,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7679700684391477137, guid: de1278f606a71e64db6ab5ac0d62c002, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.3057698
+      value: 1.3628854
       objectReference: {fileID: 0}
     - target: {fileID: 7679700684391477137, guid: de1278f606a71e64db6ab5ac0d62c002, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.7532234
+      value: 6.246612
       objectReference: {fileID: 0}
     - target: {fileID: 7679700684391477137, guid: de1278f606a71e64db6ab5ac0d62c002, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1664,6 +1744,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pole_light_free (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 524b0a3ce31d8264ea017eae2d6e4441, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 524b0a3ce31d8264ea017eae2d6e4441, type: 3}
 --- !u!4 &6857750496893302369 stripped
@@ -1757,6 +1841,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: New Prefab 1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 658245879748478332, guid: 093218e783b90e5438640ea2c7e5163b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 4514589368418165503, guid: 093218e783b90e5438640ea2c7e5163b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 093218e783b90e5438640ea2c7e5163b, type: 3}
 --- !u!4 &6885605759445585050 stripped
@@ -1837,6 +1929,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RoadBlockWide (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 7564364437935063288, guid: de1278f606a71e64db6ab5ac0d62c002, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 7679700684391477137, guid: de1278f606a71e64db6ab5ac0d62c002, type: 3}
       propertyPath: m_RootOrder
       value: 30
@@ -1851,7 +1947,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7679700684391477137, guid: de1278f606a71e64db6ab5ac0d62c002, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.610921
+      value: 4.860921
       objectReference: {fileID: 0}
     - target: {fileID: 7679700684391477137, guid: de1278f606a71e64db6ab5ac0d62c002, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1903,6 +1999,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RoadBlockWide (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 7564364437935063288, guid: de1278f606a71e64db6ab5ac0d62c002, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 7679700684391477137, guid: de1278f606a71e64db6ab5ac0d62c002, type: 3}
       propertyPath: m_RootOrder
       value: 34
@@ -1913,11 +2013,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7679700684391477137, guid: de1278f606a71e64db6ab5ac0d62c002, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.1735353
+      value: 6.230651
       objectReference: {fileID: 0}
     - target: {fileID: 7679700684391477137, guid: de1278f606a71e64db6ab5ac0d62c002, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.610921
+      value: 5.1043096
       objectReference: {fileID: 0}
     - target: {fileID: 7679700684391477137, guid: de1278f606a71e64db6ab5ac0d62c002, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2025,6 +2125,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: New Prefab 1 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 658245879748478332, guid: 093218e783b90e5438640ea2c7e5163b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 4514589368418165503, guid: 093218e783b90e5438640ea2c7e5163b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 093218e783b90e5438640ea2c7e5163b, type: 3}
 --- !u!4 &7170401896933508350 stripped
@@ -2086,6 +2194,10 @@ PrefabInstance:
     - target: {fileID: 2821329270988867348, guid: ebd406210b3fa1c4e82a12936d831995, type: 3}
       propertyPath: m_Name
       value: RoadBlock (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2821329270988867348, guid: ebd406210b3fa1c4e82a12936d831995, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ebd406210b3fa1c4e82a12936d831995, type: 3}
@@ -2152,6 +2264,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 524b0a3ce31d8264ea017eae2d6e4441, type: 3}
       propertyPath: m_Name
       value: Pole_light_free (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 524b0a3ce31d8264ea017eae2d6e4441, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 524b0a3ce31d8264ea017eae2d6e4441, type: 3}
@@ -2234,6 +2350,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RoadBlock (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2821329270988867348, guid: ebd406210b3fa1c4e82a12936d831995, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ebd406210b3fa1c4e82a12936d831995, type: 3}
 --- !u!4 &5566302280051144603 stripped
@@ -2296,6 +2416,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RoadBlock
       objectReference: {fileID: 0}
+    - target: {fileID: 2821329270988867348, guid: ebd406210b3fa1c4e82a12936d831995, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ebd406210b3fa1c4e82a12936d831995, type: 3}
 --- !u!4 &5308023082195522129 stripped
@@ -2310,9 +2434,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5881792740605460988}
     m_Modifications:
+    - target: {fileID: 1611557285694359922, guid: e518a08fa4d2e1946b528eedf70c323e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1618821449463216472, guid: e518a08fa4d2e1946b528eedf70c323e, type: 3}
       propertyPath: m_Name
       value: New Prefab (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1618821449463216472, guid: e518a08fa4d2e1946b528eedf70c323e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 9129890973601186189, guid: e518a08fa4d2e1946b528eedf70c323e, type: 3}
       propertyPath: m_RootOrder
@@ -2379,6 +2511,10 @@ PrefabInstance:
     - target: {fileID: 7564364437935063288, guid: de1278f606a71e64db6ab5ac0d62c002, type: 3}
       propertyPath: m_Name
       value: RoadBlockWide (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7564364437935063288, guid: de1278f606a71e64db6ab5ac0d62c002, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 7679700684391477137, guid: de1278f606a71e64db6ab5ac0d62c002, type: 3}
       propertyPath: m_RootOrder
@@ -2493,6 +2629,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 524b0a3ce31d8264ea017eae2d6e4441, type: 3}
       propertyPath: m_Name
       value: Pole_light_free
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 524b0a3ce31d8264ea017eae2d6e4441, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 524b0a3ce31d8264ea017eae2d6e4441, type: 3}

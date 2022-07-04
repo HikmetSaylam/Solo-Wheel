@@ -15,7 +15,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3815255684152383745
 Transform:
@@ -59,7 +59,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7486337766946805432
 Transform:
@@ -102,7 +102,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3875214340133572691
 Transform:
@@ -154,7 +154,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5071413568092179374
 Transform:
@@ -198,7 +198,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2499480827309353629
 Transform:
@@ -242,7 +242,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6463545027402110417
 Transform:
@@ -286,7 +286,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4786704444533193837
 Transform:
@@ -330,7 +330,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8357780299954408927
 Transform:
@@ -374,7 +374,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7980502666605156224
 Transform:
@@ -418,7 +418,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4746007521567518432
 Transform:
@@ -493,7 +493,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5252503036856793317
 Transform:
@@ -520,7 +520,6 @@ Transform:
   - {fileID: 2499480827309353629}
   - {fileID: 4786704444533193837}
   - {fileID: 4263085223508432815}
-  - {fileID: 8938125642565787181}
   - {fileID: 4764488079211192883}
   - {fileID: 2156155386538095427}
   - {fileID: 8820810590690708640}
@@ -542,7 +541,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4152058083250384101
 Transform:
@@ -586,7 +585,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6663194059852974173
 Transform:
@@ -630,7 +629,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6860281997595468739
 Transform:
@@ -674,7 +673,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2360238650868570635
 Transform:
@@ -757,6 +756,18 @@ PrefabInstance:
     - target: {fileID: 6813736917224580018, guid: 3edc0ebb2b5c6e94192f0acd8c90c427, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Floating_Island_03 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6813736917224580018, guid: 3edc0ebb2b5c6e94192f0acd8c90c427, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7229529332951213448, guid: 3edc0ebb2b5c6e94192f0acd8c90c427, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8066388076934589682, guid: 3edc0ebb2b5c6e94192f0acd8c90c427, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -254199087812654504, guid: 3edc0ebb2b5c6e94192f0acd8c90c427, type: 3}
@@ -847,13 +858,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5252503036856793317}
     m_Modifications:
+    - target: {fileID: 1337602936979128602, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4668397346351433436, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Floating_Island_01 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4668397346351433436, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 5441098261372279910, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 5441098261372279910, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
       propertyPath: m_LocalScale.x
@@ -907,6 +926,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -9.732
       objectReference: {fileID: 0}
+    - target: {fileID: 9204645080355659629, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
 --- !u!4 &4764488079211192883 stripped
@@ -924,6 +947,30 @@ PrefabInstance:
     - target: {fileID: 105566, guid: decc2ba5add7b984aab134a07b436422, type: 3}
       propertyPath: m_Name
       value: Clouds_Cumulus_G1 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 105566, guid: decc2ba5add7b984aab134a07b436422, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 113402, guid: decc2ba5add7b984aab134a07b436422, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 128370, guid: decc2ba5add7b984aab134a07b436422, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 151080, guid: decc2ba5add7b984aab134a07b436422, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 170892, guid: decc2ba5add7b984aab134a07b436422, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 183994, guid: decc2ba5add7b984aab134a07b436422, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 454398, guid: decc2ba5add7b984aab134a07b436422, type: 3}
       propertyPath: m_RootOrder
@@ -983,9 +1030,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3875214340133572691}
     m_Modifications:
+    - target: {fileID: 1337602936979128602, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4668397346351433436, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Floating_Island_01 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4668397346351433436, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 5441098261372279910, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
       propertyPath: m_RootOrder
@@ -1043,6 +1098,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9204645080355659629, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8068206715352108654, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
@@ -1058,9 +1117,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3875214340133572691}
     m_Modifications:
+    - target: {fileID: 1337602936979128602, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4668397346351433436, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Floating_Island_01 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4668397346351433436, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 5441098261372279910, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
       propertyPath: m_RootOrder
@@ -1117,6 +1184,10 @@ PrefabInstance:
     - target: {fileID: 5441098261372279910, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9204645080355659629, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8068206715352108654, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
@@ -1193,6 +1264,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Gate_01
       objectReference: {fileID: 0}
+    - target: {fileID: 7828404238315967327, guid: a4f5d4b2af55e4e4d8637b2a8848162f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8807041534172288445, guid: a4f5d4b2af55e4e4d8637b2a8848162f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a4f5d4b2af55e4e4d8637b2a8848162f, type: 3}
@@ -1208,9 +1283,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3875214340133572691}
     m_Modifications:
+    - target: {fileID: 1337602936979128602, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4668397346351433436, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Floating_Island_01 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4668397346351433436, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 5441098261372279910, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
       propertyPath: m_RootOrder
@@ -1267,6 +1350,10 @@ PrefabInstance:
     - target: {fileID: 5441098261372279910, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9204645080355659629, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8068206715352108654, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
@@ -1343,6 +1430,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Monuntain_Desert_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6695660723358663943, guid: 9b8e86e3dcb69a04abe7f4eff1461daf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -5788992474555952658, guid: 9b8e86e3dcb69a04abe7f4eff1461daf, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 9b8e86e3dcb69a04abe7f4eff1461daf, type: 3}
@@ -1358,9 +1449,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3875214340133572691}
     m_Modifications:
+    - target: {fileID: 1337602936979128602, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4668397346351433436, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Floating_Island_01 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4668397346351433436, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 5441098261372279910, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
       propertyPath: m_RootOrder
@@ -1418,6 +1517,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9204645080355659629, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8068206715352108654, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
@@ -1436,6 +1539,30 @@ PrefabInstance:
     - target: {fileID: 105566, guid: decc2ba5add7b984aab134a07b436422, type: 3}
       propertyPath: m_Name
       value: Clouds_Cumulus_G1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 105566, guid: decc2ba5add7b984aab134a07b436422, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 113402, guid: decc2ba5add7b984aab134a07b436422, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 128370, guid: decc2ba5add7b984aab134a07b436422, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 151080, guid: decc2ba5add7b984aab134a07b436422, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 170892, guid: decc2ba5add7b984aab134a07b436422, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 183994, guid: decc2ba5add7b984aab134a07b436422, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 454398, guid: decc2ba5add7b984aab134a07b436422, type: 3}
       propertyPath: m_RootOrder
@@ -1501,11 +1628,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1528440011218675264, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.5950241
+      value: 0.92229223
       objectReference: {fileID: 0}
     - target: {fileID: 1528440011218675264, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.19585937
+      value: 0.20588738
       objectReference: {fileID: 0}
     - target: {fileID: 1528440011218675264, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
       propertyPath: m_LocalScale.z
@@ -1513,11 +1640,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1528440011218675264, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.18
+      value: 6.6
       objectReference: {fileID: 0}
     - target: {fileID: 1528440011218675264, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.2836
+      value: 3.1388
       objectReference: {fileID: 0}
     - target: {fileID: 1528440011218675264, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1555,6 +1682,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_01
       objectReference: {fileID: 0}
+    - target: {fileID: 2197137296818355450, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a297dc57e88b464f94070684a8ae8ab, type: 3}
 --- !u!4 &3999256305427873927 stripped
@@ -1569,13 +1700,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5252503036856793317}
     m_Modifications:
+    - target: {fileID: 626645678230334188, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.009283379
+      objectReference: {fileID: 0}
+    - target: {fileID: 626645678230334188, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.50899035
+      objectReference: {fileID: 0}
+    - target: {fileID: 626645678230334188, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.88601214
+      objectReference: {fileID: 0}
+    - target: {fileID: 1337602936979128602, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4668397346351433436, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Floating_Island_01 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 4668397346351433436, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 5441098261372279910, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 5441098261372279910, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
       propertyPath: m_LocalScale.x
@@ -1629,6 +1780,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -56.798
       objectReference: {fileID: 0}
+    - target: {fileID: 9204645080355659629, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8068206715352108654, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
@@ -1637,80 +1792,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5441098261372279910, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
   m_PrefabInstance: {fileID: 3597103370315796678}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &4001505306284032587
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 5252503036856793317}
-    m_Modifications:
-    - target: {fileID: 4668397346351433436, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
-      propertyPath: m_Name
-      value: CrossPlains_Floating_Island_01 (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5441098261372279910, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
-      propertyPath: m_RootOrder
-      value: 14
-      objectReference: {fileID: 0}
-    - target: {fileID: 5441098261372279910, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.37922597
-      objectReference: {fileID: 0}
-    - target: {fileID: 5441098261372279910, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.45163932
-      objectReference: {fileID: 0}
-    - target: {fileID: 5441098261372279910, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.29982582
-      objectReference: {fileID: 0}
-    - target: {fileID: 5441098261372279910, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1.68
-      objectReference: {fileID: 0}
-    - target: {fileID: 5441098261372279910, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 6.89
-      objectReference: {fileID: 0}
-    - target: {fileID: 5441098261372279910, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -13.85
-      objectReference: {fileID: 0}
-    - target: {fileID: 5441098261372279910, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.94540465
-      objectReference: {fileID: 0}
-    - target: {fileID: 5441098261372279910, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5441098261372279910, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.32589883
-      objectReference: {fileID: 0}
-    - target: {fileID: 5441098261372279910, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5441098261372279910, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5441098261372279910, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 38.04
-      objectReference: {fileID: 0}
-    - target: {fileID: 5441098261372279910, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
---- !u!4 &8938125642565787181 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 5441098261372279910, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
-  m_PrefabInstance: {fileID: 4001505306284032587}
+--- !u!1 &2556747979681796572 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1337602936979128602, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
+  m_PrefabInstance: {fileID: 3597103370315796678}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &6605135217360864632
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2556747979681796572}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8470049373670364707, guid: d97690d43e1b27b47b644c6d78f9a2f1, type: 3}
 --- !u!1001 &4416827651955089281
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1721,6 +1821,30 @@ PrefabInstance:
     - target: {fileID: 105566, guid: decc2ba5add7b984aab134a07b436422, type: 3}
       propertyPath: m_Name
       value: Clouds_Cumulus_G1 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 105566, guid: decc2ba5add7b984aab134a07b436422, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 113402, guid: decc2ba5add7b984aab134a07b436422, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 128370, guid: decc2ba5add7b984aab134a07b436422, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 151080, guid: decc2ba5add7b984aab134a07b436422, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 170892, guid: decc2ba5add7b984aab134a07b436422, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 183994, guid: decc2ba5add7b984aab134a07b436422, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 454398, guid: decc2ba5add7b984aab134a07b436422, type: 3}
       propertyPath: m_RootOrder
@@ -1784,6 +1908,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: Clouds_Cumulus_G1
       objectReference: {fileID: 0}
+    - target: {fileID: 105566, guid: decc2ba5add7b984aab134a07b436422, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 113402, guid: decc2ba5add7b984aab134a07b436422, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 128370, guid: decc2ba5add7b984aab134a07b436422, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 151080, guid: decc2ba5add7b984aab134a07b436422, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 170892, guid: decc2ba5add7b984aab134a07b436422, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 183994, guid: decc2ba5add7b984aab134a07b436422, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 454398, guid: decc2ba5add7b984aab134a07b436422, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -1842,9 +1990,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3875214340133572691}
     m_Modifications:
+    - target: {fileID: 1337602936979128602, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4668397346351433436, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Floating_Island_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 4668397346351433436, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 5441098261372279910, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
       propertyPath: m_RootOrder
@@ -1901,6 +2057,10 @@ PrefabInstance:
     - target: {fileID: 5441098261372279910, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9204645080355659629, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
@@ -1984,6 +2144,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Floating_Island_04
       objectReference: {fileID: 0}
+    - target: {fileID: 3089071785511687746, guid: cea01bb8ab40eab4f8f42bc74e39e9cf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3270680501063489334, guid: cea01bb8ab40eab4f8f42bc74e39e9cf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3568716679042433796, guid: cea01bb8ab40eab4f8f42bc74e39e9cf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -407893375902753735, guid: cea01bb8ab40eab4f8f42bc74e39e9cf, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: cea01bb8ab40eab4f8f42bc74e39e9cf, type: 3}
@@ -1999,9 +2171,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3875214340133572691}
     m_Modifications:
+    - target: {fileID: 1337602936979128602, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4668397346351433436, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Floating_Island_01 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4668397346351433436, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 5441098261372279910, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
       propertyPath: m_RootOrder
@@ -2058,6 +2238,10 @@ PrefabInstance:
     - target: {fileID: 5441098261372279910, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9204645080355659629, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8068206715352108654, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
@@ -2134,6 +2318,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Gate_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7828404238315967327, guid: a4f5d4b2af55e4e4d8637b2a8848162f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a4f5d4b2af55e4e4d8637b2a8848162f, type: 3}
 --- !u!4 &4263085223508432815 stripped
@@ -2148,9 +2336,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3875214340133572691}
     m_Modifications:
+    - target: {fileID: 1337602936979128602, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4668397346351433436, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Floating_Island_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4668397346351433436, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 5441098261372279910, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
       propertyPath: m_RootOrder
@@ -2203,6 +2399,10 @@ PrefabInstance:
     - target: {fileID: 5441098261372279910, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9204645080355659629, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b4a88aee496a96d49aee9abc46419cad, type: 3}
@@ -2273,6 +2473,10 @@ PrefabInstance:
     - target: {fileID: 5194833140025917830, guid: 5f908e007535b2b42989a1adc759f01e, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Rock_04
+      objectReference: {fileID: 0}
+    - target: {fileID: 5194833140025917830, guid: 5f908e007535b2b42989a1adc759f01e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6894556753486657984, guid: 5f908e007535b2b42989a1adc759f01e, type: 3}
@@ -2349,6 +2553,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Gate_01 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7828404238315967327, guid: a4f5d4b2af55e4e4d8637b2a8848162f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8807041534172288445, guid: a4f5d4b2af55e4e4d8637b2a8848162f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a4f5d4b2af55e4e4d8637b2a8848162f, type: 3}
@@ -2424,6 +2632,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Monuntain_Desert_01
       objectReference: {fileID: 0}
+    - target: {fileID: 6695660723358663943, guid: 9b8e86e3dcb69a04abe7f4eff1461daf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -5788992474555952658, guid: 9b8e86e3dcb69a04abe7f4eff1461daf, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 9b8e86e3dcb69a04abe7f4eff1461daf, type: 3}
@@ -2495,6 +2707,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossPlains_Rock_04 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5194833140025917830, guid: 5f908e007535b2b42989a1adc759f01e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6894556753486657984, guid: 5f908e007535b2b42989a1adc759f01e, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 5f908e007535b2b42989a1adc759f01e, type: 3}
@@ -2512,15 +2728,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7489420763876559333, guid: a4f5d4b2af55e4e4d8637b2a8848162f, type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 7489420763876559333, guid: a4f5d4b2af55e4e4d8637b2a8848162f, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.6
+      value: 1.0018713
       objectReference: {fileID: 0}
     - target: {fileID: 7489420763876559333, guid: a4f5d4b2af55e4e4d8637b2a8848162f, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.6
+      value: 1.022208
       objectReference: {fileID: 0}
     - target: {fileID: 7489420763876559333, guid: a4f5d4b2af55e4e4d8637b2a8848162f, type: 3}
       propertyPath: m_LocalScale.z
@@ -2528,15 +2744,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7489420763876559333, guid: a4f5d4b2af55e4e4d8637b2a8848162f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.19
+      value: 6.4314
       objectReference: {fileID: 0}
     - target: {fileID: 7489420763876559333, guid: a4f5d4b2af55e4e4d8637b2a8848162f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.53
+      value: 3.2612
       objectReference: {fileID: 0}
     - target: {fileID: 7489420763876559333, guid: a4f5d4b2af55e4e4d8637b2a8848162f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -18.93
+      value: -18.847
       objectReference: {fileID: 0}
     - target: {fileID: 7489420763876559333, guid: a4f5d4b2af55e4e4d8637b2a8848162f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2569,6 +2785,10 @@ PrefabInstance:
     - target: {fileID: 7828404238315967327, guid: a4f5d4b2af55e4e4d8637b2a8848162f, type: 3}
       propertyPath: m_Name
       value: CrossPlains_Gate_01 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7828404238315967327, guid: a4f5d4b2af55e4e4d8637b2a8848162f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a4f5d4b2af55e4e4d8637b2a8848162f, type: 3}

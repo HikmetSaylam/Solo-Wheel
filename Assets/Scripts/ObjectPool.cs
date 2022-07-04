@@ -41,9 +41,7 @@ public class ObjectPool : MonoSingleton<ObjectPool>
                     stages[q].pools[i].pooledObjects.Enqueue(obj);
                 }
             }
-
         }
-        
     }
 
     public GameObject GetGameObject()
@@ -74,17 +72,4 @@ public class ObjectPool : MonoSingleton<ObjectPool>
         stages[levelType].roadType = stages[levelType].startRoad;
         return ++stages[levelType].roadType % stages[levelType].pools.Length;
     }
-
-   /* private void RemoveStage()
-    {
-        for (var i = 0; i < stages.First().pools.Length; i++)
-        {
-            for (var j = 0; j < stages.First().pools[i].poolSize; j++)
-            {
-                Destroy(stages.First().pools[i].PooledObjects.Dequeue());
-            }
-        }
-        stages = stages.Where(val => !val.Equals(stages.First())).ToArray();
-    }*/
-
 }
